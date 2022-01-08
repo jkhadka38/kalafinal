@@ -1,0 +1,53 @@
+main {
+  height: 85vh;
+  background: url(../images/11.jpeg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  margin: 0;
+}
+.signin-container {
+  height: 50vh;
+  width: 30vw;
+  background: var(--orange);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 10px;
+}
+
+.signin-container h1 {
+  margin-bottom: 50px;
+}
+
+.signin-container form{
+    width: 70%;
+}
+
+.signin-container input,
+.signin-container button {
+  border-radius: 25px;
+  border: 0;
+  margin-bottom: 1.5em;
+  width: 100%;
+  padding:.5em 1em;
+
+}
+
+
+.btn {
+  display:inline-block;
+  text-decoration: none;
+  color:#00126E;
+  font-weight: bold;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 0px;
+  font-size: 10px;
+  width: 100%;
+}

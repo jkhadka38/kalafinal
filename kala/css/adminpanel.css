@@ -1,0 +1,18 @@
+
+     table td, th {
+        padding:15px;
+     } 
+     
+     table {
+         margin-top: 1em;
+         width:100%;
+     } 
+     
+     .table-container {
+        display:block;
+        padding: 0 2em; 
+     } 
+     
+     .tableHeader {
+         padding-top: 1em;
+     }

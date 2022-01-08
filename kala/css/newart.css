@@ -1,0 +1,28 @@
+.product-container{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 32px;
+}
+
+
+.photo{
+    height: 30vh;
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+
+.product-container img {  
+  width: 100%;
+  height: auto;
+} .desClass {
+  position: relative;
+  bottom: 0;
+  color:white;
+  top: -5em;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+}

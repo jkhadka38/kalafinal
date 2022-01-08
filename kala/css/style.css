@@ -1,0 +1,160 @@
+header {
+  height: 15vh;
+  background-color: var(--orange);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+.logo {
+  font-family: "Newsreader", serif;
+  font-size: 28px;
+  margin-left: 50px;
+}
+
+nav ul {
+  display: flex;
+  margin-right: 60px;
+}
+
+.bgpicture {
+  height: 84vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../images/1.jpeg);
+  background-repeat: repeat;
+  display: grid;
+  place-items: center;
+}
+
+.slogan h1 {
+  font-size: 64px;
+  font-family: "Teko", sans-serif;
+  color: #ccc;
+}
+
+ul li a {
+  color: black;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  justify-content: center;
+  transition: 0.5s ease;
+}
+
+ul li a:hover {
+  background-color: black;
+  color: #f2a20c;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 32px;
+}
+
+.new-container,
+.paint-container,
+.photo-container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.new-content,
+.painting,
+.photography {
+  height: 350px;
+}
+
+.new-container h1,
+.paint-container h1,
+.photo-container h1 {
+  margin-top: 10px;
+}
+
+.new-content{
+  background: url(https://source.unsplash.com/user/erondu/350x350);
+  background-size: cover;
+}
+
+.painting {
+  background: url(https://source.unsplash.com/350x350?painting);
+  background-size: cover;
+}
+
+.photography {
+  background: url(https://source.unsplash.com/350x350?photography);
+  background-size: cover;
+}
+
+.about-us {
+  height: 400px;
+  background: orange;
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.about-us-text {
+  margin-left: 50px;
+}
+
+.about-us-text h1 {
+  margin-bottom: 50px;
+}
+
+.about-us-image {
+  width: 250px;
+  height: 250px;
+  background-image: url(../images/babyoda.jpg);
+}
+
+.connect {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.connect h1 {
+  margin: 15px 0;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 3rem;
+}
+
+.contact-form button,
+.contact-form input {
+  padding: 3px 5px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: var(--orange);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 5vh;
+  background-color: rgb(41, 39, 40);
+}
+
+.copyright {
+  text-align: center; 
+  font-size: 10px;
+  width: 100%;
+}
+
+.copyright h1 {
+  padding: 10px 10px;
+  color: #eee;
+}
